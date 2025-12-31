@@ -5,6 +5,12 @@
     justify-content: center;
     gap: 10px;
     color: #fff;
+    margin-top: 40px;
+
+
+    @media (min-width: 768px) {
+        margin-top: 0;
+    }
 
     img {
         aspect-ratio: 1/1;
