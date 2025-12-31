@@ -1,0 +1,22 @@
+# macOS and system files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+
+# Temp files
+*.tmp
+*.swp
+
+# Node modules (should not be in public, but ignore just in case)
+node_modules/
+
+
+# Build outputs (if ever present in public)
+dist/
+build/
+
+# Log files
+*.log

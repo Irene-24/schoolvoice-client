@@ -1,0 +1,28 @@
+.leader-board {
+
+    display: grid;
+    gap: 80px;
+    padding: 5%;
+    margin: 50px auto 0;
+    max-width: 1440px;
+    grid-template-columns: minmax(0, 1fr);
+
+    @media (min-width: 980px) {
+        display: grid;
+        gap: 3%;
+        align-items: center;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        margin-top: 10px;
+
+    }
+
+    @media (min-width: 1024px) {
+        gap: 5%;
+
+    }
+
+    @media (min-width: 1350px) {
+        gap: 10%;
+
+    }
+}

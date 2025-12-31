@@ -1,0 +1,38 @@
+.leader-header {
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #fff;
+
+    img {
+        aspect-ratio: 1/1;
+        width: 80px;
+        object-position: center;
+        object-fit: contain;
+    }
+
+    p {
+        font-size: 14px;
+        margin-bottom: 10px;
+
+        @media (min-width: 768px) {
+            font-size: 18px;
+        }
+
+
+    }
+
+
+    h1 {
+        font-size: 20px;
+
+        @media (min-width: 768px) {
+            font-size: 25px;
+        }
+
+
+    }
+
+}
